@@ -1,0 +1,378 @@
+header{
+
+	background-image: url("../img/background1.jpg") ;
+	background-size: 100% 100%;
+
+}
+
+
+
+hr.star-light.headerstar{
+
+	max-width: 750px;
+}
+hr.star-light.aboutme{
+
+	max-width: 750px;
+	margin-left:0;
+}
+
+hr.star-light.connectme{
+
+	max-width: 450px;
+	margin-left:0;
+}
+hr.star-primary.portfoliostar{
+
+	max-width:1000px;
+	margin-left:0;
+	
+}
+
+}
+hr.star-primary.portfolio-connect{
+
+	border-color:black;
+
+}
+
+hr.star-primary.contactme{
+
+	max-width: 750px;
+	margin-left:0;
+}
+
+.headerrow{
+
+	height:230px;
+}
+
+
+.portfolio{
+
+	border:2px solid;
+	margin-top:50px;
+	padding-bottom: 30px;
+
+}
+
+
+#bio-image{
+
+	height: 180px;
+	width: 180px;
+	float: left;
+	margin-right:30px;
+
+
+
+}
+
+#header-img
+{
+	height: 180px;
+	width: 180px;
+}
+
+
+
+
+
+.main-content{
+
+border:2px solid;
+margin-top:50px;
+
+
+}
+
+.connect-content{
+
+border:2px solid white;
+margin-top:50px;
+padding-bottom: 30px;
+
+}
+
+#contact{
+	background-color: #18BC9C;
+}
+
+#git-image,
+#link-image,
+#so-image
+{
+	margin-top: 10px;
+	height:62px;
+	width:62px;
+
+}
+
+.namesec{
+
+	font-size: 20px;
+	margin-left: 0;
+
+}
+
+.emailidsec{
+	font-size: 20px;
+	margin-left: 0;
+
+}
+
+.msgsec{
+font-size: 20px;
+	margin-left: 0;
+
+
+}
+
+.labelrow{
+
+	margin-bottom: 20px;
+}
+
+.portfolio1,.portfolio2,
+.portfolio3{
+
+	margin-left:20px;
+}
+
+
+
+.hangman
+{	
+	width: 600px;
+	height: 180px;
+	margin-top: 20px;	
+
+}
+
+.rpggame{
+
+	width: 600px;
+	height: 180px;
+	margin-top: 20px;
+	margin-left: 40px;
+
+}
+
+.trivia{
+
+	width: 600px;
+	height: 180px;
+	margin-top: 35px;
+	
+}
+
+.rutgers{
+
+	width: 600px;
+	height: 180px;
+	margin-top: 35px;
+	margin-left: 40px;
+	
+	
+
+}
+
+.rockpaper{
+		
+	width: 600px;
+	height: 180px;
+	margin-top: 35px;
+	
+}
+
+#hangmandiv
+{
+	
+	position: relative;
+	width: 280px;
+	height: 50px;
+	background-color: #4aaaa5;
+	font-family: "Georgia","Times New Roman",Times,serif;
+	font-size: 22px;
+	text-align: center;
+	padding-top:10px;
+	color:#ffffff;
+	margin-top: 0;
+	z-index: 2;
+	
+}
+
+#rpggamediv{
+	
+	position: relative;
+	width: 280px;
+	height: 50px;
+	font-family: "Georgia","Times New Roman",Times,serif;
+	font-size: 22px;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 0;
+	padding-left: 20px;
+	margin-left: 40px;
+	z-index: 2;
+	
+	
+	
+}
+
+#triviadiv{
+
+	position: relative;
+	width: 280px;
+	height: 50px;
+	font-family: "Georgia","Times New Roman",Times,serif;
+	font-size: 22px;
+	padding-top: 10px;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	text-align: center;
+	margin-top: 0;
+	z-index: 2;
+
+}
+
+#rutgersdiv{
+
+	position: relative;
+	width: 280pX;
+	height: 50px;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	font-family: "Georgia","Times New Roman",Times,serif;
+	font-size: 22px;
+	padding-top: 10px;
+	margin-top: 0;
+	text-align: center;
+	padding-left: 20px;
+	margin-left: 40px;
+	z-index: 2;
+
+
+	
+}
+
+#rockpaperdiv{
+	
+	position: relative;
+	width: 280px;
+	height: 50px;
+	font-family: "Georgia","Times New Roman",Times,serif;
+	font-size: 22px;
+	padding-top: 10px;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	text-align: center;
+	margin-top: 0;
+	z-index: 2;
+	
+}
+
+/*@media screen and (max-width:980px){
+
+.main-content{
+
+width:350px;
+
+}
+
+#bio-image{
+
+	height: 200px;
+	width: 310px;
+	float: left;
+	margin-right:30px;
+	padding-bottom: 20px;
+}
+
+
+
+.connect-content{
+
+	position: relative;
+	float: right;
+	width:300px;
+	margin-top:-980px;
+}
+
+/*.portfolio{
+
+	clear: both;
+	overflow: auto;
+}*//*
+
+.portforlio-container{
+
+	width: 350px;
+	margin-left:100px;
+
+}
+
+.portfolio-connectdiv{
+
+	border:2px solid;
+	position: absolute;
+	float: right;
+	width:300px;
+	margin-left: 500px;
+	margin-top: -1785px;
+	padding-bottom: 30px;
+
+}
+
+.hangman,.rpggame,
+.trivia,.rutgers,
+.rockpaper
+{	
+	width: 250px;
+	height: 250px;
+	margin-left:0;
+
+}
+
+
+#hangmandiv,#rpggamediv,
+#triviadiv,#rutgersdiv,
+#rockpaper
+{
+	width: 250px;
+	margin-left: 0;
+	
+}
+
+.contact-container{
+
+width:350px;
+margin-left: 100px;
+}
+
+.contact-connect{
+border:2px solid;
+	position: absolute;
+	float: right;
+	width:300px;
+	margin-left: 500px;
+	margin-top: -665px;
+	padding-bottom: 30px;
+
+}
+
+#name{
+
+	width: 100px;
+}
+.btn-success{
+	background-color: white;
+	color: #18BC9C;;
+}
+}
+
+@media screen and (max-width:768px){}
+
+@media screen and (max-width:640px){}*/
