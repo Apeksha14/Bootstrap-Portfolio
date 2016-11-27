@@ -24,12 +24,17 @@ hr.star-light{
 
 hr.star-light.contactme{
 	
-	width: 750px;
+	width: 850px ;
+}
+
+hr.star-light.connectme{
+
+	width: 750px auto;
 }
 
 hr.star-primary{
 
-	max-width: 750px;
+	max-width: 850px ;
 }
 hr.star-primary.portfoliostar{
 
@@ -54,7 +59,7 @@ border:1px solid;
 
 hr.star-primary.contactme{
 
-	max-width: 750px;
+	max-width: 750px auto;
 	margin-left:0;
 }
 
@@ -70,6 +75,13 @@ hr.star-primary.contactme{
 
 .portfolio{
 
+	border:2px solid;
+	
+	padding-bottom: 30px;
+
+}
+
+.portfoliodiv{
 	border:2px solid;
 	
 	padding-bottom: 30px;
@@ -143,9 +155,10 @@ margin-top: 50px;
 
 .namesec{
 
-
+	width: 750px;
+	
 	font-size: 20px;
-	margin-left: 0;
+	
 
 }
 
@@ -165,8 +178,10 @@ margin-top: 50px;
 
 .labelrow{
 
+	padding:0;
 	margin-bottom: 20px;
 }
+
 
 .portfolio1,.portfolio2,
 .portfolio3{
@@ -309,13 +324,25 @@ margin-top: 50px;
 	
 }
 
-/*@media screen and (max-width:980px){
+@media screen and (max-width:980px){
+
+hr.star-light.contactme{
+
+	width:310px;
+}
+hr.star-primary.portfoliostar{
+
+	width:310px;
+}
+
 
 .main-content{
+
 
 width:350px;
 
 }
+
 
 #bio-image{
 
@@ -326,9 +353,7 @@ width:350px;
 	padding-bottom: 20px;
 }
 
-
-
-.connect-content{
+.connect-contentabt{
 
 	position: relative;
 	float: right;
@@ -336,11 +361,16 @@ width:350px;
 	margin-top:-980px;
 }
 
-/*.portfolio{
 
-	clear: both;
-	overflow: auto;
-}*//*
+.connect-content{
+
+	position: absolute;	
+	width:300px;
+	margin-top:-670px;
+	margin-left: 450px;
+	
+}
+
 
 .portforlio-container{
 
@@ -355,7 +385,7 @@ width:350px;
 	position: absolute;
 	float: right;
 	width:300px;
-	margin-left: 500px;
+	margin-left: 450px;
 	margin-top: -1785px;
 	padding-bottom: 30px;
 
@@ -374,7 +404,7 @@ width:350px;
 
 #hangmandiv,#rpggamediv,
 #triviadiv,#rutgersdiv,
-#rockpaper
+#rockpaperdiv
 {
 	width: 250px;
 	margin-left: 0;
@@ -387,15 +417,9 @@ width:350px;
 margin-left: 100px;
 }
 
-.contact-connect{
-border:2px solid;
-	position: absolute;
-	float: right;
-	width:300px;
-	margin-left: 500px;
-	margin-top: -665px;
-	padding-bottom: 30px;
 
+#namesec{
+	margin-left: 5px;
 }
 
 #name{
@@ -406,8 +430,114 @@ border:2px solid;
 	background-color: white;
 	color: #18BC9C;;
 }
+
+.form-group.floating-label-form-group{
+
+width: 310px;
+margin-left: 15px;
+
+}
 }
 
-@media screen and (max-width:768px){}
+@media screen and (max-width:768px){
 
-@media screen and (max-width:640px){}*/
+hr.star-light.contactme{
+
+	width:610px;
+}
+
+.main-content{
+
+width:650px;
+margin-left: 50px;
+
+}
+
+
+.connect-contentabt{
+
+	position: relative;
+	float: left;
+	width:650px;
+	margin-top:50px;
+	margin-left: 50px;
+}
+
+
+
+.portfolio-container{
+
+	position: absolute;
+	width: 650px;
+	
+
+}
+
+.portfoliodiv{
+
+	width: 650px;
+	margin-left: -50px;
+}
+
+.portfolio-connectdiv{
+
+	
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	margin-right: 100px;
+	margin-left: -50px;
+	width: 650px;
+
+
+}
+
+
+.connect-content{
+
+	position: relative;
+	width:650px;
+	margin-top:-670px;
+	margin-left: 0;
+	margin-top: 50px;
+	
+}
+
+.contact-container{
+
+position: relative;
+width:350px;
+margin-left: 100px;
+}
+
+
+
+
+.btn-success{
+	background-color: white;
+	color: #18BC9C;;
+}
+
+.form-group.floating-label-form-group{
+
+width: 600px;
+margin-left: 15px;
+
+}
+
+.contact-container{
+
+	padding-left: 0;
+	margin-left: 65px;
+}
+
+.portfolio{
+
+	width: 650px;
+
+}
+
+
+}
+
+@media screen and (max-width:640px){}
