@@ -1,6 +1,6 @@
 {
-  "name": "freelancer",
-  "title": "Freelancer",
+  "name": "Apeksha14",
+  "title": "Apeksha",
   "version": "3.3.7+1",
   "homepage": "http://startbootstrap.com/template-overviews/freelancer",
   "author": "Start Bootstrap",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+    "url": "https://github.com/Apeksha14/Bootstrap-Portfolio.git"
   },
   "scripts":{
     "start":" node gulpfile.js"
