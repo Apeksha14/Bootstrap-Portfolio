@@ -28,5 +28,8 @@
     "type": "git",
     "url": "https://github.com/Apeksha14/Bootstrap-Portfolio.git"
   },
+  "scripts":{
+    "start":"gulpfile.js"
+  },
   "cacheDirectories": ["node_modules"]
 }
