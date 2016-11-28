@@ -1,11 +1,48 @@
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#git-image:hover{
+	animation: bounce 1s;
+}
+#link-image:hover{
+	animation: bounce 1s;
+}
+#so-image:hover{
+	animation: bounce 1s;
+}
+
+
+.myhover:hover{
+
+	cursor:pointer;
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+
+#portfolio{
+
+	background-color: #e0e0e0;
+}
 header{
 
 	background-image: url("../img/background1.jpg") ;
 	background-size: 100% 100%;
 
 }
-
-
 
 hr.star-light.headerstar{
 
@@ -20,6 +57,7 @@ hr.star-light.aboutme{
 hr.star-light{
 
 	max-width: 750px;
+
 }
 
 hr.star-light.contactme{
@@ -99,7 +137,7 @@ hr.star-primary.contactme{
 #bio-image{
 
 	height: 180px;
-	width: 180px;
+	width: 180px ;
 	float: left;
 	margin-right:30px;
 
@@ -196,6 +234,7 @@ margin-top: 50px;
 	width: 600px;
 	height: 180px;
 	margin-top: 20px;	
+	
 
 }
 
@@ -205,6 +244,7 @@ margin-top: 50px;
 	height: 180px;
 	margin-top: 20px;
 	margin-left: 40px;
+	
 
 }
 
@@ -224,6 +264,7 @@ margin-top: 50px;
 	margin-left: 40px;
 	
 	
+	
 
 }
 
@@ -232,6 +273,7 @@ margin-top: 50px;
 	width: 600px;
 	height: 180px;
 	margin-top: 35px;
+	
 	
 }
 
@@ -283,6 +325,7 @@ margin-top: 50px;
 	background-color: #4aaaa5;
 	color:#ffffff;
 	text-align: center;
+	
 	margin-top: 0;
 	z-index: 2;
 
@@ -302,6 +345,7 @@ margin-top: 50px;
 	text-align: center;
 	padding-left: 20px;
 	margin-left: 40px;
+	
 	z-index: 2;
 
 
@@ -320,6 +364,7 @@ margin-top: 50px;
 	color:#ffffff;
 	text-align: center;
 	margin-top: 0;
+	
 	z-index: 2;
 	
 }
@@ -346,8 +391,8 @@ width:350px;
 
 #bio-image{
 
-	height: 200px;
-	width: 310px;
+	height: 250px;
+	width: 250px;
 	float: left;
 	margin-right:30px;
 	padding-bottom: 20px;
@@ -446,6 +491,11 @@ hr.star-light.contactme{
 	width:610px;
 }
 
+hr.star-primary.portfoliostar{
+
+width: 610px;
+	}
+
 .main-content{
 
 width:650px;
@@ -512,7 +562,6 @@ margin-left: 100px;
 
 
 
-
 .btn-success{
 	background-color: white;
 	color: #18BC9C;;
@@ -538,6 +587,198 @@ margin-left: 15px;
 }
 
 
+#hangmandiv{
+
+	position: relative;
+	float: left;
+	
 }
 
-@media screen and (max-width:640px){}
+.rpggame{
+	float: right;
+	margin-top: -250px;
+	margin-right: 30px;
+}
+
+#rpggamediv{
+
+float: right;
+margin-right: 30px;
+}
+
+.rutgers{
+
+	float: right;
+	margin-top: -300px;
+	margin-right: 30px;
+}
+
+#rutgersdiv{
+
+float: right;
+margin-top: -50px;
+margin-right: 30px;
+
+}
+
+#portfolio3{
+
+	clear:both;
+	overflow: auto;
+}
+}
+
+@media screen and (max-width:640px){
+
+hr.star-light.contactme{
+
+	width:510px;
+}
+
+hr.star-primary.portfoliostar{
+
+	width: 500px;
+	margin-left:0;
+}
+
+.main-content{
+
+width:550px;
+margin-left: 30px;
+
+}
+
+.connect-contentabt{
+
+	position: relative;
+	float: left;
+	width:550px;
+	margin-top:50px;
+	margin-left: 30px;
+}
+
+.portfolio-container{
+
+	position: absolute;
+	width: 550px;
+	
+
+}
+
+.portfoliodiv{
+
+	width: 550px;
+	margin-left: -70px;
+}
+
+.portfolio-connectdiv{
+
+	
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	margin-right: 100px;
+	margin-left: -70px;
+	width: 550px;
+
+
+}
+
+
+.contact-container{
+
+position: relative;
+width:150px;
+margin-left: 40px;
+}
+
+
+
+.form-group.floating-label-form-group{
+
+width: 500px;
+margin-left: 15px;
+
+}
+
+.contact-container{
+
+	padding-left: 0;
+	margin-left: 45px;
+}
+
+.portfolio{
+
+	width: 550px;
+
+}
+
+.connect-content{
+
+	width:550px;
+	margin-top:-670px;
+	margin-left: 0;
+	margin-top: 50px;
+	
+}
+
+.hangman
+{	
+	width: 300px;
+	height: 200px;
+	
+}
+
+.rpggame{
+
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin-top: 50px;
+		
+
+}
+
+.trivia{
+
+	width: 300px;
+	height: 200px;
+	
+	
+}
+
+.rutgers{
+
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin-top: 35px;
+	
+	
+
+}
+
+.rockpaper{
+
+	width: 300px;
+	height: 200px;
+	margin-top: 35px;
+	
+}
+
+
+#rpggamediv,#rutgersdiv,
+#triviadiv,#rockpaperdiv,
+#hangmandiv{
+
+float: left;
+width: 300px;
+height: 50px;
+margin-left: 0;
+
+}
+
+
+
+
+}
