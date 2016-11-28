@@ -26,6 +26,6 @@
   },
   "scripts":{
     "start":" node gulpfile.js"
-  }
-"cacheDirectories": ["node_modules", "bower_components", "public/build" ]
+  },
+  "cacheDirectories": ["node_modules", "bower_components", "public/build" ]
 }
