@@ -25,6 +25,7 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
   },
   "scripts":{
-    "start":"gulpfile.js"
+    "start":" node gulpfile.js"
   }
+"cacheDirectories": ["node_modules", "bower_components", "public/build" ]
 }
