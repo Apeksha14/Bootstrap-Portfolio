@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
+ * Start Bootstrap - Apeksha v3.3.7+1 (https://hidden-spire-74619.herokuapp.com/)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
