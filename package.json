@@ -1,0 +1,35 @@
+{
+  "name": "Apeksha14",
+  "title": "Apeksha",
+  "version": "3.3.7+1",
+  "homepage": "https://hidden-spire-74619.herokuapp.com/",
+  "author": "Start Bootstrap",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+  },
+  "engines":{
+    "node":"6.7.0",
+    "npm":"3.10.7"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.13.0",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-header": "^1.8.7",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4",
+    "jquery": "^1.11.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Apeksha14/Bootstrap-Portfolio.git"
+  },
+  "scripts":{
+    "start":"node gulpfile.js"
+  },
+  "cacheDirectories": ["node_modules"]
+}
