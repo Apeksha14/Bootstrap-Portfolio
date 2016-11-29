@@ -2,7 +2,7 @@
   "name": "Apeksha14",
   "title": "Apeksha",
   "version": "3.3.7+1",
-  "homepage": "https://hidden-spire-74619.herokuapp.com",
+  "homepage": "https://hidden-spire-74619.herokuapp.com/index.html",
   "author": "Start Bootstrap",
   "license": {
     "type": "MIT",
@@ -29,7 +29,7 @@
     "url": "https://github.com/Apeksha14/Bootstrap-Portfolio.git"
   },
   "scripts":{
-    "start":"gulpfile.js"
+    "start":"node index.js"
   },
   "cacheDirectories": ["node_modules"]
 }
